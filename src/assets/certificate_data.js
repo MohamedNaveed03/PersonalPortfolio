@@ -1,8 +1,8 @@
 const Certificate_Data = [
     {
         s_no:"01",
-        s_name:"Python",
-        s_desc:"Python Essentials"
+        s_name:"Python Essentials",
+        s_desc:"Cisco"
     },
     {
         s_no:"02",

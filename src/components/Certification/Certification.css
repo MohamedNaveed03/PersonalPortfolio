@@ -1,0 +1,100 @@
+.certifications{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:80px;
+    margin: 80px 170px;
+}
+
+.certification-title{
+    position: relative;
+}
+
+.certification-title h1{
+    padding: 0px 30px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.certification-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    z-index: -1;
+}
+
+.certificate-format{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.certificate-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.certificate-format h3{
+    font-size: 28px;
+    font-weight: 600;
+
+}
+
+.certificate-format h2{
+    font-size: 38px;
+    font-weight: 800;
+    background:linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.certificate-format p{
+    color: #d4d4d4;
+    font-size: 24px;
+    line-height: 40px;
+    max-width: 300px;
+}
+
+.certificate-readmore{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.certificate-format:hover {
+    border: 2px solid transparent; /* Remove the border change */
+    background: none; /* No background change */
+    transform: scale(1.05) rotate(1deg); /* Slight scale and rotate for a dynamic effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Add a subtle shadow for depth */
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.certificate-format::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05); /* Add a soft overlay effect */
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+}
+
+.certificate-format:hover::before {
+    opacity: 1; /* Fade in the overlay on hover */
+}

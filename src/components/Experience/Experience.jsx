@@ -4,7 +4,7 @@ import theme_pattern from "../../assets/theme_pattern.svg";
 
 function Experience() {
   return (
-    <div className="experience-section">
+    <div className="experience-section" id="experience-id">
       <div className="about-title">
         <h1>Experience</h1>
         <img src={theme_pattern} alt="Background Pattern" />

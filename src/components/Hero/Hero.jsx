@@ -3,7 +3,7 @@ import './Hero.css'
 import profile_img from '../../assets/circleimg.jpg'
 function Hero() {
   return (
-    <div className='hero'>
+    <div className='hero' id='hero-id'>
       <img src={profile_img} alt=''></img>
       <h1><span>I'm Mohamed Naveed,</span> Software Engineer.</h1>
       <p>Software Engineer from India with 2+ years of experience in Software Developement and Python Automation.</p>

@@ -9,7 +9,7 @@
     </filter>
   </defs>
 
-  <text x="20" y="55" font-family="'Pacifico', cursive" font-size="48" font-weight="bold" fill="url(#gradient)" filter="url(#shadow)">
-    Naveed
+  <text x="20" y="55" font-family="Roboto, sans-serif" font-size="48" font-weight="bold" fill="url(#gradient)" filter="url(#shadow)">
+    Coder.
   </text>
 </svg>

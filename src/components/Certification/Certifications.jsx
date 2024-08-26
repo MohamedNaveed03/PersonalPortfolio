@@ -6,7 +6,7 @@ import arrow_icon from "../../assets/arrow_icon.svg"
 
 function Certifications() {
   return (
-    <div className='certifications'>
+    <div className='certifications' id='certification-id'>
       <div className='certification-title'>
         <h1>Certifications</h1>
         <img src={theme_patter} alt=''></img>

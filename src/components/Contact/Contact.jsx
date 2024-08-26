@@ -5,7 +5,7 @@ import "./Contact.css";
 
 function Contact() {
   return (
-    <div className="contact-section">
+    <div className="contact-section" id="contact-id">
       <div className="about-title">
         <h1>Contact</h1>
         <img src={theme_pattern} alt="Background Pattern" />

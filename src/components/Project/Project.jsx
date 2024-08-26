@@ -4,7 +4,7 @@ import "./Project.css";
 
 function Project() {
   return (
-    <div className='project-section'>
+    <div className='project-section' id='projects-id'>
       <div className="about-title">
         <h1>Projects</h1>
         <img src={theme_pattern} alt="Background Pattern" />

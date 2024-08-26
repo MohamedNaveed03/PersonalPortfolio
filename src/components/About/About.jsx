@@ -6,7 +6,7 @@ import { FaStar } from 'react-icons/fa'; // Import Font Awesome stars
 
 function About() {
   return (
-    <div className='about'>
+    <div className='about'id='about-id'>
       <div className='about-title'>
         <h1>About Me</h1>
         <img src={theme_pattern} alt='Background Pattern'></img>

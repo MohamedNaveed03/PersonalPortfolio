@@ -66,3 +66,17 @@
 .hero-resume:hover{
     border: 2px solid #89f7fe;
 }
+
+.hero-resume .resume-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .hero-resume .resume-link:active {
+    color: inherit;
+  }
+  
+  .hero-resume .resume-link:focus {
+    outline: none;
+  }
+  

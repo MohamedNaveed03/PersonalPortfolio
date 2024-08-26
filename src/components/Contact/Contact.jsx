@@ -4,6 +4,9 @@ import { FaEnvelope, FaLinkedin, FaGithub, FaPhone } from "react-icons/fa";
 import "./Contact.css";
 
 function Contact() {
+  const handleDownloadClick = () => {
+    alert('Submitted successfully');
+  };
   return (
     <div className="contact-section" id="contact-id">
       <div className="about-title">
@@ -32,7 +35,7 @@ function Contact() {
               <label htmlFor="message">Your Message</label>
               <textarea id="message" placeholder="Write your message here"></textarea>
             </div>
-            <button type="submit">Submit Now</button>
+            <button type="submit" onClick={handleDownloadClick}>Submit Now</button>
           </form>
         </div>
       </div>

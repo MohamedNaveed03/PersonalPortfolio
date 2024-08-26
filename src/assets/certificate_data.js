@@ -22,7 +22,7 @@ const Certificate_Data = [
     {
         s_no:"05",
         s_name:"Microsoft Excel",
-        s_desc:"GreatLearning"
+        s_desc:"Courseera"
     },
     {
         s_no:"06",

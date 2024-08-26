@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import theme_pattern from "../../assets/theme_pattern.svg"
-import profile_img from "../../assets/profile.jpg"
+import profile_img from "../../assets/profile2.jpg"
 
 function About() {
   return (
@@ -20,6 +20,7 @@ function About() {
             design and implement scalable systems and user-centric applications.Optimized performance and enhanced data management, driving efficiency and reliability in software solutions.
             </p>
         </div>
+        
         <div className='about-skills'>
             <div className='about-skill'>
                 <p>HTML & CSS</p><hr style={{width:"50%"}}></hr>
@@ -36,7 +37,14 @@ function About() {
             <div className='about-skill'>
                 <p>FastAPI</p><hr style={{width:"50%"}}></hr>
             </div>
+            <div className='about-skill'>
+                <p>JavaScript</p><hr style={{width:"50%"}}></hr>
+            </div>
+            <div className='about-skill'>
+                <p>SQL</p><hr style={{width:"50%"}}></hr>
+            </div>
         </div>
+
         </div>
      </div>
      <div className='about-achivements'>

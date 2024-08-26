@@ -46,10 +46,12 @@
 }
 
 
-.about-left img{
-    height: 450px;
-    width: 350px;
+.about-left img {
+    height: 550px;
+    width: 350px; 
+    object-fit: cover;
 }
+
 
 .about-skills{
     display: flex;

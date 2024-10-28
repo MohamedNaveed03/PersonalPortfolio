@@ -2,14 +2,14 @@ import React from 'react';
 import './About.css';
 import theme_pattern from "../../assets/theme_pattern.svg";
 import profile_img from "../../assets/profile2.jpg";
-import { FaStar } from 'react-icons/fa'; // Import Font Awesome stars
+import { FaStar } from 'react-icons/fa';
 
 function About() {
   return (
-    <div className='about'id='about-id'>
+    <div className='about' id='about-id'>
       <div className='about-title'>
         <h1>About Me</h1>
-        <img src={theme_pattern} alt='Background Pattern'></img>
+        <img src={theme_pattern} alt='Background Pattern' />
       </div>
       <div className='about-sections'>
         <div className="about-left">
@@ -18,9 +18,8 @@ function About() {
         <div className='about-right'>
           <div className='about-para'>
             <p>
-              Leveraged 2+ years of experience in Python development and automation, utilizing FastAPI, MongoDB, and PyQt5 to
-              design and implement scalable systems and user-centric applications. Optimized performance and enhanced data management, driving efficiency and reliability in software solutions.
-            </p>
+            Software Engineer with over 2.5 years of experience, specializing in development, server-side management, automa
+tion, API creation, and workflow optimization.Successful in developing, debugging, and delivering scalable solutions in Agile environments.           </p>
           </div>
 
           <div className='about-skills'>
@@ -35,7 +34,7 @@ function About() {
               </div>
             </div>
             <div className='about-skill'>
-              <p>Git</p>
+              <p>Git , ProofHub</p>
               <div className='star-rating'>
                 <FaStar className='star-icon filled' />
                 <FaStar className='star-icon filled' />
@@ -45,7 +44,7 @@ function About() {
               </div>
             </div>
             <div className='about-skill'>
-              <p>React JS</p>
+              <p>JavaScript & React JS</p>
               <div className='star-rating'>
                 <FaStar className='star-icon filled' />
                 <FaStar className='star-icon filled' />
@@ -55,7 +54,7 @@ function About() {
               </div>
             </div>
             <div className='about-skill'>
-              <p>Python</p>
+              <p>Python & FastAPI</p>
               <div className='star-rating'>
                 <FaStar className='star-icon filled' />
                 <FaStar className='star-icon filled' />
@@ -65,7 +64,17 @@ function About() {
               </div>
             </div>
             <div className='about-skill'>
-              <p>FastAPI</p>
+              <p>SQL SERVER & MYSQL</p>
+              <div className='star-rating'>
+                <FaStar className='star-icon filled' />
+                <FaStar className='star-icon filled' />
+                <FaStar className='star-icon filled' />
+                <FaStar className='star-icon filled' />
+                <FaStar className='star-icon' />
+              </div>
+            </div>
+            <div className='about-skill'>
+              <p>Java</p>
               <div className='star-rating'>
                 <FaStar className='star-icon filled' />
                 <FaStar className='star-icon filled' />
@@ -75,17 +84,7 @@ function About() {
               </div>
             </div>
             <div className='about-skill'>
-              <p>JavaScript</p>
-              <div className='star-rating'>
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon' />
-                <FaStar className='star-icon' />
-              </div>
-            </div>
-            <div className='about-skill'>
-              <p>SQL</p>
+              <p>C# & ASP.Net</p>
               <div className='star-rating'>
                 <FaStar className='star-icon filled' />
                 <FaStar className='star-icon filled' />

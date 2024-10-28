@@ -5,6 +5,7 @@ import certificate_data from "../../assets/certificate_data";
 import arrow_icon from "../../assets/arrow_icon.svg";
 
 function Certifications() {
+
   return (
     <div className="certifications" id="certification-id">
       <div className="certification-title">

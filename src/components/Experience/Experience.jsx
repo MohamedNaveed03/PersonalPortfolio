@@ -89,14 +89,12 @@ function Experience() {
             </div>
             <ul class="experience-description">
               <li>
-                Acquired practical experience in Python and SQL through
-                intensive hands-on training, applying these skills to real-world
-                projects.
+              Built and optimized web applications using C#, ASP.NET Core, and SQL Server, improving system performance by
+              30% and reducing query execution time through efficient database management with SQLite and SQL Server.
               </li>
               <li>
-                Developed technical proficiency in programming and database
-                management, solving practical problems and contributing to
-                project success.
+              Deployed applications on Microsoft Azure and implemented CI/CD pipelines using GitHub, enhancing scalability, re
+              liability, and automation. Streamlined backend services in .NET Core, resulting in a 20% boost in project efficiency.
               </li>
             </ul>
           </div>

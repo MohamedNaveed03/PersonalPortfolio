@@ -66,6 +66,20 @@ function Project() {
         As a freelancer, developed a professional webpage for Tawhid Leather Company to effectively present their services. Collaborated directly with the client to understand their needs and managed a team of 2+ members to deliver the project. Employed JavaScript, HTML, CSS, and React for development, with Git used for seamless collaboration and version control.
     </p>
 </div>
+<div class="project-card">
+    <h2 class="project-name">Payroll Application</h2>
+    <div class="project-skills">
+        <span>C#</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>ASP.NET MVC</span>
+        <span>SQL SERVER 2022</span>
+    </div>
+    <p class="project-description">
+        Developed a PayrollAppilication for creating a Payslip and Noting down the employees listed in the company with designation, implemented CRUD Operation, Storing the Data in a Database with the help of SQL SERVER. 
+    </p>
+</div>
 
         
       </div>

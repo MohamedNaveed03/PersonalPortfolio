@@ -19,7 +19,7 @@ function Contact() {
           <p><FaEnvelope className="contact-icon" /> <a href="mailto:naveedmohamed870@gmail.com">naveedmohamed870@gmail.com</a></p>
           <p><FaLinkedin className="contact-icon" />  <a href="https://www.linkedin.com/in/mohamednaveed/" target="_blank" rel="noopener noreferrer">Connect with me in Linkedin</a></p>
           <p><FaGithub className="contact-icon" /> <a href="https://github.com/MohamedNaveed03" target="_blank" rel="noopener noreferrer">Connect with me in GitHub</a></p>
-          <p><FaPhone className="contact-icon" /> +91 6383587503</p>
+          <p><FaPhone className="contact-icon" /> +971 503872649</p>
         </div>
         <div className="contact-form">
           <form>

@@ -7,8 +7,8 @@ function Hero() {
   return (
     <div className='hero' id='hero-id'>
       <img src={profile_img} alt='Profile'></img>
-      <h1><span>I'm Mohamed Naveed,</span> Software Engineer.</h1>
-      <p>Software Engineer from India with 2+ years of experience in Software Development and Python Automation.</p>
+      <h1>I'm <span>Mohamed Naveed,</span> Software Engineer.</h1>
+      <p>Software Engineer from India with 3+ years of experience in Software Development and Python Automation.</p>
       <div className='hero-action'> 
         <div className='hero-connect'>
           <Link to="contact-id" smooth={true} duration={500}>Connect With Me</Link>

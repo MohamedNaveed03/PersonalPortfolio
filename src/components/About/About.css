@@ -51,20 +51,55 @@
 }
 
 .about-skills {
-    display: grid;
-    flex-direction: column;
-    gap: 20px;
+  max-width: 650px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 1.8rem 2.4rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(34, 60, 80, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1a1a1a;
 }
 
-.about-skill {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 10px;
+.about-skills h3 {
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  border-bottom: 3px solid #3b82f6; /* bright blue */
+  padding-bottom: 0.4rem;
+  color: #2563eb; /* blue-600 */
+  font-weight: 700;
 }
 
-.about-skill p {
-    font-size: 18px;
-    font-weight: 500;
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-item {
+  font-size: 1.15rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e0e7ff; /* very light blue */
+  transition: background-color 0.3s ease;
+  cursor: default;
+  color: #334155; /* slate-700 */
+}
+
+.skill-item:last-child {
+  border-bottom: none;
+}
+
+.skill-item strong {
+  color: #1e40af; /* blue-800 */
+  font-weight: 600;
+}
+
+/* Hover effect to highlight skill category */
+.skill-item:hover {
+  background-color: #dbeafe; /* light blue background on hover */
+  color: #1e3a8a; /* darker blue text */
+  border-left: 4px solid #3b82f6; /* blue accent */
+  padding-left: 0.8rem;
 }
 
 .star-rating {

@@ -2,8 +2,6 @@ import React from 'react';
 import './About.css';
 import theme_pattern from "../../assets/theme_pattern.svg";
 import profile_img from "../../assets/profile2.jpg";
-import { FaStar } from 'react-icons/fa';
-
 function About() {
   return (
     <div className='about' id='about-id'>
@@ -18,87 +16,37 @@ function About() {
         <div className='about-right'>
           <div className='about-para'>
             <p>
-            Software Engineer with over 2.5 years of experience, specializing in development, server-side management, automa
-tion, API creation, and workflow optimization.Successful in developing, debugging, and delivering scalable solutions in Agile environments.           </p>
+            Software Engineer with over 3 years of experience, specializing in development, server-side management, automation, API creation, and workflow optimization.Successful in developing, debugging, and delivering scalable solutions in Agile environments.           </p>
           </div>
+          <div className="about-skills">
+  <h3>Technical Skills</h3>
+  <ul className="skills-list">
+    {/* Frontend */}
+    <li className="skill-item"><strong>Frontend:</strong> HTML, CSS, JavaScript, React.js</li>
 
-          <div className='about-skills'>
-            <div className='about-skill'>
-              <p>HTML & CSS</p>
-              <div className='star-rating'>
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon' />
-              </div>
-            </div>
-            <div className='about-skill'>
-              <p>Git , ProofHub</p>
-              <div className='star-rating'>
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon' />
-              </div>
-            </div>
-            <div className='about-skill'>
-              <p>JavaScript & React JS</p>
-              <div className='star-rating'>
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon' />
-                <FaStar className='star-icon' />
-              </div>
-            </div>
-            <div className='about-skill'>
-              <p>Python & FastAPI</p>
-              <div className='star-rating'>
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon filled' />
-              </div>
-            </div>
-            <div className='about-skill'>
-              <p>SQL SERVER & MYSQL</p>
-              <div className='star-rating'>
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon' />
-              </div>
-            </div>
-            <div className='about-skill'>
-              <p>Java</p>
-              <div className='star-rating'>
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon' />
-                <FaStar className='star-icon' />
-              </div>
-            </div>
-            <div className='about-skill'>
-              <p>C# & ASP.Net</p>
-              <div className='star-rating'>
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon filled' />
-                <FaStar className='star-icon' />
-              </div>
-            </div>
-          </div>
+    {/* Backend */}
+    <li className="skill-item"><strong>Backend:</strong> Python, FastAPI, C#, ASP.NET</li>
+
+    {/* Databases */}
+    <li className="skill-item"><strong>Databases:</strong> SQL Server, MySQL, MongoDB</li>
+
+    {/* Tools */}
+    <li className="skill-item"><strong>Tools:</strong> Git, Docker, Version Control</li>
+
+    {/* Data & Analysis */}
+    <li className="skill-item"><strong>Data & Analysis:</strong> Pandas, Matplotlib, Web Scraping, File Handling, Regex</li>
+
+    {/* Other */}
+    <li className="skill-item"><strong>Other:</strong> Debugging, PyQt5 (Desktop App Development)</li>
+  </ul>
+</div>
+
+
         </div>
       </div>
       <div className='about-achievements'>
         <div className='about-achievement'>
-          <h1>2+</h1>
+          <h1>3+</h1>
           <p>Years of Experience</p>
         </div>
         <hr />
